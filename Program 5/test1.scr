@@ -1,0 +1,32 @@
+Script started on 2019-11-14 16:42:11-0500
+]777;notify;Command completed;exit]0;s789220c@cslab177:~/CSCI385/Prog5]7;file://cslab177/home/CS/s789220c/CSCI385/Prog5[16:42] s789220c@cslab177:~/CSCI385/Prog5 $ c++ Client.cpp -o Client
+]777;notify;Command completed;c++ Client.cpp -o Client]0;s789220c@cslab177:~/CSCI385/Prog5]7;file://cslab177/home/CS/s789220c/CSCI385/Prog5[16:42] s789220c@cslab177:~/CSCI385/Prog5 $ ./Client
+Enter the common list size: 10
+Would you like to randomize the numbers to sort? (Y or N)N
+Enter the input file name: tester.dat
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+Running the Selection Sort!
+Running the Heap Sort!
+Running the Quick Sort!
+Running the Built-in Sort
+Printing Sorted Selection Array and Stats!
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+Comparisons: 45
+Swaps: 0
+Printing Sorted Heap Array and Stats!
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+Comparisons: 108
+Swaps: 31
+Printing Sorted Quick Array and Stats!
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+Comparisons: 54
+Swaps: 0
+Printing Sorted Comp Array!
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 
+]777;notify;Command completed;./Client]0;s789220c@cslab177:~/CSCI385/Prog5]7;file://cslab177/home/CS/s789220c/CSCI385/Prog5[16:42] s789220c@cslab177:~/CSCI385/Prog5 $ exit
+exit
+
+Script done on 2019-11-14 16:42:38-0500

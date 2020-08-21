@@ -1,0 +1,47 @@
+Script started on 2019-10-16 15:58:10-0400
+]777;notify;Command completed;exit]0;s789220c@cslab171:~/CSCI385/Prog3]7;file://cslab171/home/CS/s789220c/CSCI385/Prog3[15:58] s789220c@cslab171:~/CSCI385/Prog3 $ ./TripleSumBashScript.sh
+***********Compiling TripleSum.cpp*********
+
+**************Beginning runs of TripleSum************
+
+Enter the test list size: 500
+Total number of Triple Sums: 766
+TripleSum Runtime is: 0 seconds
+**************Would you like to run the program again?********
+
+Yes
+Enter the test list size: 1000
+Total number of Triple Sums: 6307
+TripleSum Runtime is: 1 seconds
+****************Would you like to run the program again?**********
+
+Yes
+Enter the test list size: 2000
+Total number of Triple Sums: 50350
+TripleSum Runtime is: 3 seconds
+****************Would you like to run the program again?**********
+
+Yes
+Enter the test list size: 4000
+Total number of Triple Sums: 401188
+TripleSum Runtime is: 20 seconds
+****************Would you like to run the program again?**********
+
+Yes
+Enter the test list size: 8000
+Total number of Triple Sums: 3199611
+TripleSum Runtime is: 165 seconds
+****************Would you like to run the program again?**********
+
+Yes
+Enter the test list size: 16000
+Total number of Triple Sums: 25675917
+TripleSum Runtime is: 1323 seconds
+****************Would you like to run the program again?**********
+
+No
+**********Ending BASH Script!***********
+]777;notify;Command completed;./TripleSumBashScript.sh]0;s789220c@cslab171:~/CSCI385/Prog3]7;file://cslab171/home/CS/s789220c/CSCI385/Prog3[16:24] s789220c@cslab171:~/CSCI385/Prog3 $ exit
+exit
+
+Script done on 2019-10-16 16:24:20-0400

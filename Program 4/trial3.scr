@@ -1,0 +1,16 @@
+Script started on 2019-11-01 16:07:52-0400
+]777;notify;Command completed;exit]0;s789220c@cslab162:~/CSCI385/Prog4]7;file://cslab162/home/CS/s789220c/CSCI385/Prog4[16:07] s789220c@cslab162:~/CSCI385/Prog4 $ ./Client
+Enter list size: 250
+Inserting the items!
+Searching for the values!
+Total BST Comparisons: 2517
+Inserting the items!
+Searching for the values!
+Total Unsorted Hash Table Comparisons: 3310
+Inserting the items!
+Searching for the values!
+Total Sorted Hash Table Comparisons: 1945
+]777;notify;Command completed;./Client]0;s789220c@cslab162:~/CSCI385/Prog4]7;file://cslab162/home/CS/s789220c/CSCI385/Prog4[16:07] s789220c@cslab162:~/CSCI385/Prog4 $ exit
+exit
+
+Script done on 2019-11-01 16:08:00-0400

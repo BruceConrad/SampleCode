@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>60</y>
+      <w>590</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>BST Class
+--
+-rootNode: BSTNode*
+-numComparisons: int
+--
++BST()
++~BST()
++SetKeyValue(keyValue: BSTItem): void
++GetKeyValue(): BSTItem
++Insert(nodeValue: BSTItem): void
++Search(searchItem: BSTItem): bool
++FindPredecessor(currentItem: BSTItem): BSTItem
++FindSuccessor(currentItem: BSTItem): BSTItem
++InorderTraverse(): void
++GetNumComparisons(): int
+-TreeMax(node: BSTNode*): BSTItem
+-TreeMin(node: BSTNode*): BSTItem
+-DestroyNodes(deletionPtr: BSTNode*): void
+-RecursiveTraverse(node: BSTNode*): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>240</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Struct&gt;&gt;
+BSTNode
+--
+parentNode: BSTNode*
+leftChildPtr: BSTNode*
+rightChildPTr: BSTNode*
+keyValue: BSTItem</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,18 @@
+Script started on 2019-11-01 16:07:01-0400
+]777;notify;Command completed;exit]0;s789220c@cslab162:~/CSCI385/Prog4]7;file://cslab162/home/CS/s789220c/CSCI385/Prog4[16:07] s789220c@cslab162:~/CSCI385/Prog4 $ c++ -c BST.cpp HashTable.cpp
+]777;notify;Command completed;c++ -c BST.cpp HashTable.cpp]0;s789220c@cslab162:~/CSCI385/Prog4]file://cslab162/home/CS/s789220c/CSCI385/Prog4[16:07] s789220c@cslab162:~/CSCI385/Prog4 $ c++ BST.o HashTable.o Client.cpp -o Client
+]777;notify;Command completed;c++ BST.o HashTable.o Client.cpp -o Client]0;s789220c@cslab162:~/CSCI385/Prog4]7;file://cslab162/home/CS/s789220c/CSCI385/Prog4[16:07] s789220c@cslab162:~/CSCI385/Prog4 $ ./Client
+Enter list size: 50
+Inserting the items!
+Searching for the values!
+Total BST Comparisons: 372
+Inserting the items!
+Searching for the values!
+Total Unsorted Hash Table Comparisons: 157
+Inserting the items!
+Searching for the values!
+Total Sorted Hash Table Comparisons: 110
+]777;notify;Command completed;./Client]0;s789220c@cslab162:~/CSCI385/Prog4]7;file://cslab162/home/CS/s789220c/CSCI385/Prog4[16:07] s789220c@cslab162:~/CSCI385/Prog4 $ exit
+exit
+
+Script done on 2019-11-01 16:07:32-0400

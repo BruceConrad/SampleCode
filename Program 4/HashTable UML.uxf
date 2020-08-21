@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>130</y>
+      <w>490</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes>HashTable Class
+--
+-listSize: static const int
+-hashArray[listSize]: HashTableNode*
+-hashNode: HashTableNode
+-numComparisons: int
+--
++HashTable()
++UnsortedInsert(hashTableValue: HashTableItem): void
++SortedInsert(hashTableValue: HashTableItem): void
++Search(hashTableValue: HashTableItem): bool
++SortedSearch(hashTableValue: HashTableItem): bool
++PrintBucketsDawg(): void
++GetNumComparisons(): int
+-HashFunction(uwu: int): int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>340</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Struct&gt;&gt;
+HashTableNode
+--
+hashLink: HashTableNode*
+hashData: HashTableItem</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
